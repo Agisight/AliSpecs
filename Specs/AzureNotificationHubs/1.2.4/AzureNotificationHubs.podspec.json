@@ -1,0 +1,43 @@
+{
+  "authors": "Microsoft",
+  "dependencies": {
+  },
+  "frameworks": [
+  ],
+  "homepage": "https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-ios-get-started/",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "license": {
+    "text": "Microsoft: Copyright 2015 Microsoft",
+    "type": "Commercial"
+  },
+  "name": "AzureNotificationHubs",
+  "platforms": {
+    "ios": "7.0",
+    "osx": "10.7",
+    "tvos": "9.0"
+  },
+  "preserve_paths": [
+    "submit",
+    "WindowsAzureMessaging.framework/*"
+  ],
+  "ios": {
+    "public_header_files": "WindowsAzureMessaging.framework/Headers/*.h",
+    "vendored_frameworks": "WindowsAzureMessaging.framework"
+  },
+  "osx": {
+    "public_header_files": "WindowsAzureMessaging.framework/Versions/A/Headers/*.h",
+    "vendored_frameworks": "WindowsAzureMessaging.framework"
+  },
+  "tvos": {
+    "public_header_files": "WindowsAzureMessaging.framework/Headers/*.h",
+    "vendored_frameworks": "WindowsAzureMessaging.framework"
+  },
+  "source": {
+    "http": "http://zumo.blob.core.windows.net/sdk/azuresdk-iOS-v1.2.4.zip"
+  },
+  "summary": "Get started with Notification Hubs for iOS apps",
+  "version": "1.2.4"
+}

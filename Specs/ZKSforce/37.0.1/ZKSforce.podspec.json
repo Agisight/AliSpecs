@@ -1,0 +1,28 @@
+{
+    "authors": {
+        "Simon Fell": "fellforce@gmail.com"
+    },
+    "homepage": "https://github.com/superfell/zkSforce",
+    "libraries": "xml2",
+    "license": "MIT",
+    "name": "ZKSforce",
+    "osx": {
+        "frameworks": "Security"
+    },
+    "platforms": {
+        "ios": "7.0",
+        "osx": "10.9"
+    },
+    "requires_arc": false,
+    "source": {
+        "git": "https://github.com/superfell/zkSforce.git",
+        "tag": "v37.0.0"
+    },
+    "source_files": "zkSforce",
+    "public_header_files": "zkSforce/*.h",
+    "summary": "A Cocoa library for calling the Salesforce.com SOAP APIs.",
+    "version": "37.0.1",
+    "xcconfig": {
+        "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+    }
+}
