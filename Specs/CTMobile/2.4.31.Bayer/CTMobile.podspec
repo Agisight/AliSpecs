@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { 'gtarasov' => 'gleb34@gmail.com' }
 
-  s.source       = { :git => 'https://github.com/CT-Software/The-New-CT-Mobile', :branch => '2.4.Bayer' }
+  s.source       = { :git => 'git@github.com:CT-Software/The-New-CT-Mobile.git', :branch => '2.4.Bayer' }
   s.platform     = :ios, '11.0'
   s.requires_arc = true
 
