@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'CTMobile'
   s.version      = '2.4.31.Bayer'
   s.summary      = 'The New CT Mobile'
-  s.homepage     = 'https://github.com/CT-Software/The-New-CT-Mobile'
+  s.homepage     = 'git@github.com:CT-Software/The-New-CT-Mobile.git'
   s.license      = 'MIT'
   s.author       = { 'gtarasov' => 'gleb34@gmail.com' }
 
