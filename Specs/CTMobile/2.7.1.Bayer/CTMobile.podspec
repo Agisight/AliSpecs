@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { 'gtarasov' => 'gleb34@gmail.com' }
 
   s.source       = { :git => 'git@github.com:CT-Software/The-New-CT-Mobile.git', :branch => '2.7' }
-  s.platform     = :ios, '11.0'
+  s.platform     = :ios, '14.0'
   s.requires_arc = true
 
   s.subspec 'Utils' do |utils|
