@@ -97,7 +97,7 @@ Pod::Spec.new do |s|
     core.dependency 'CTMobile/CGCloud'
     core.dependency 'CTMobile/Synchronization'
     core.dependency 'TPKeyboardAvoiding', '1.3.4'
-    core.dependency 'CT-RDVTabBarController'
+    core.dependency 'CT-RDVTabBarController', '1.1.2'
     core.dependency 'Masonry', '1.1.0'
     core.dependency 'ZipArchive'
     core.dependency 'JGProgressHUD', '2.0.3'
