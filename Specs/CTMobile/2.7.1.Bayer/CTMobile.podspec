@@ -94,6 +94,7 @@ Pod::Spec.new do |s|
     core.libraries = "c++", "z"
 
     core.dependency 'CTMobile/Utils'
+    core.dependency 'CTMobile/CGCloud'
     core.dependency 'CTMobile/Synchronization'
     core.dependency 'TPKeyboardAvoiding', '1.3.4'
     core.dependency 'CT-RDVTabBarController'
