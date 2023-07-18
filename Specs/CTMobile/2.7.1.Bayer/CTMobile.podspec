@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
     synchr.resources    = 'Synchronization/Synchronization/**/*.{storyboard,png,pdf,xib,bundle}'
 
     synchr.dependency 'CTMobile/Utils'
+    synchr.dependency 'CTMobile/CGCloud'
     synchr.dependency 'ZKSforce', '~> 38.0.2.8'
     synchr.dependency 'MagicalRecord', '2.3.2'
     synchr.dependency 'SAMKeychain', '1.5.3'
