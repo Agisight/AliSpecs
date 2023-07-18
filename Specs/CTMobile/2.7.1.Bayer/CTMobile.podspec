@@ -260,8 +260,6 @@ end
       linklist.source_files = 'LinkList/LinkList/**/*.{h,m,mm,swift}'
       linklist.exclude_files = '**/main.m'
       linklist.resources    = 'LinkList/LinkList/**/*.{storyboard,png,pdf,xib,bundle,framework}'
-
-      linklist.dependency 'CTMobile/Core'
   end
   
   s.subspec 'CGCloud' do |linklist|
