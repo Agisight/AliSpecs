@@ -263,6 +263,14 @@ end
 
       linklist.dependency 'CTMobile/Core'
   end
+  
+  s.subspec 'CGCloud' do |linklist|
+      linklist.source_files = 'CGCloud/CGCloud/**/*.{h,m,mm,swift}'
+      linklist.exclude_files = '**/main.m'
+      linklist.resources    = 'CGCloud/CGCloud/**/*.{storyboard,png,pdf,xib,bundle,framework}'
+
+      linklist.dependency 'CTMobile/Core'
+  end
 
   s.subspec 'Order' do |order|
       order.source_files = 'Order/Order/**/*.{h,m,mm,swift,md}'
