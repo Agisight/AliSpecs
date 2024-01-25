@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license      = 'MIT'
     s.author       = { "gtarasov" => "gleb34@gmail.com" }
     s.source       = { git: 'https://github.com/Agisight/Libxml2Module', branch: "test" }
-    s.platform     = :ios, '11.0'
+    s.platform     = :ios, '16.1'
 
     s.libraries = 'xml2'
     s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/Libxml2Module/headers' }
